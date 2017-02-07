@@ -12,8 +12,23 @@ body{
   font-family: sans-serif;
   font-size: 20px;
   margin:0;
+  text-align: center;
 }
 
+.homeContent{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: gray;
+  opacity: 0.8;
+  margin-top: 10%;
+}
+p {
+  padding: 0 15px 15px 15px ;
+}
+h1 {
+  padding: 15px 0 0 0;
+}
 ul {
   text-align: justify;
   padding: 0;
