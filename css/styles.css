@@ -15,27 +15,47 @@ body{
   text-align: center;
 }
 
-.homeContent{
+.GeneralContent{
   width: 80%;
   height: auto;
   margin: auto;
   background-color: gray;
   opacity: 0.8;
   margin-top: 10%;
+  padding-bottom: 5%;
 }
+
+.GeneralContentPicHeavy{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: gray;
+  margin-top: 10%;
+  padding-bottom: 5%;
+}
+
 p {
-  padding: 0 15px 15px 15px ;
+  padding: 5px 15px;
+  margin: 0;
 }
+
+
 h1 {
   padding: 15px 0 0 0;
+  margin: 0;
 }
-ul {
+
+ul{
+  list-style: none;
+}
+
+nav ul {
   text-align: justify;
   padding: 0;
   margin: 0;
 }
 
-ul:after{
+nav ul:after{
   content: '';
   display: inline-block;
   width: 100%;
@@ -47,7 +67,7 @@ ul:after{
   margin-top: -1.25em;
 }*/
 
-li {
+nav li {
   display:inline-block;
   margin-right: -.25em
   position: relative;
